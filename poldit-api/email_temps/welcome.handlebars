@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .msgFooter { margin-top: 10px; } .subList {list-style: circle; font-size:
+      small; padding: 5px; padding-left: 20px;} title {color: #898a8b;
+      font-weight: 600;} div, p, li {color: #555555;} a {color: #619aed}
+      .mainList {padding: 4; font-size: 15px;} h4 {color: #444344; font-weight:
+      600;} .mainList li {margin-top: 5px}
+    </style>
+    <title>Welcome Email</title>
+  </head>
+  <body>
+    <div>Hi {{firstName}}</div>
+    <div>
+      <p>
+        Welcome to Poldit! Our mission is to provide a community where people
+        can ask questions on polls, share information through answers and chat,
+        and have a conversation to help one another in a fun, user-friendly way.
+        With your help, these communities can grow globally.
+      </p>
+    </div>
+    <div> <h4> To get started: </h4> </div>
+    <ul class="mainList">
+      <li><a href="{{baseUrl}}/Login">Log In</a> to interact!</li>
+      <li>The
+        <a href="{{baseUrl}}">Poldit Home Page</a>
+        <ul class="subList">
+          <li>Check out the newest polls posted</li>
+          <li>See which polls people are actively having conversations on right
+            now</li>
+          <li>See the most popular polls</li>
+          <li>Choose different topics to see polls associated with those topics</li>
+        </ul>
+
+      </li>
+      <li>Search to see if people are already answering and talking about your
+        question. We want to keep the information as compact as possible to make
+        Poldit a high-quality resource.
+        <ul class="subList">
+          <li>Been awhile since someone chatted? No worries! When you send a
+            chat message everyone in the chat and the poll creator will be
+            notified to restart the conversation.</li>
+        </ul>
+      </li>
+
+      <li>Don’t see your question?
+        <a href="{{baseUrl}}/newPoll">Create a Poll.</a>
+        Roll up your sleeves and ask! 😊</li>
+      <li>See a
+        <strong>poll</strong>
+        you like or are knowledgeable on? Click on it to provide helpful
+        answers, like/dislike other answers based on your experience, and chat
+        with other users. They may need you!</li>
+      <li>To be the best you gotta follow the best! Are there users that provide
+        good answers and insightful conversation on topics relevant to you?
+        <ul class="subList">
+          <li>Click on their profile to follow them to get updates when they
+            create new polls</li>
+          <li>The
+            <strong>Follower Window</strong>
+            on the Navigation Bar shows which polls they’re in when online!</li>
+        </ul>
+      </li>
+      <li><strong>Favorite</strong>
+        polls you want to see in the future by clicking on the heart</li>
+      <li><a href="{{baseUrl}}/Topics">All Topics</a>
+        helps you find polls on topics and subtopics that interest you</li>
+      <li>Your
+        <a href="{{baseUrl}}/Profile/{{appId}}">Profile Page</a>
+        has your favorited polls, polls you created, and all of your activity</li>
+      <li>The About Us page shows all current and upcoming features if you have
+        questions or want to see what’s coming up!</li>
+      {{!-- <li>Learn more about the site and it's features:
+        <a href="{{baseUrl}}/About">About Poldit</a></li>
+      <li>Read, answer, and engage with polls:
+        <a href="{{baseUrl}}"> Poldit Home Page </a></li>
+      <li>Create a poll: <a href="{{baseUrl}}/newPoll">Create Poll</a></li>
+      <li>
+        Look through polls from all topics and subtopics:
+        <a href="{{baseUrl}}/Topics">All Topics</a></li>
+      <li>
+        Look through your favorites, polls, and activity on your profile:
+        <a href="{{baseUrl}}/Profile/{{appId}}">Profile Page</a>
+      </li> --}}
+    </ul>
+  </body>
+  <footer>
+    <div class="msgFooter">Chat with you in the polls!</div>
+    <div>The Poldit Team</div>
+    <img
+      src="https://res.cloudinary.com/rahmad12/image/upload/v1624921500/PoldIt/App_Imgs/PoldIt_logo_only_agkhlf.png"
+      width="120px"
+      height="auto"
+    /></footer>
+</html>

@@ -1,0 +1,38 @@
+.singlePlayer {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.videoPlayer {
+  position: relative;
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 1400px) {
+  .singlePlayer {
+    height: 100%;
+    width: 60%;
+  }
+}
+
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 20;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* opacity: 0;
+  transition: opacity 0.3s; */
+}
+
+/* .videoPlayer:hover .controls {
+  opacity: 0.8;
+} */

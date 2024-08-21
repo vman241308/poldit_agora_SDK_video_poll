@@ -1,0 +1,7 @@
+.errCtr {
+  background: linear-gradient(180deg, white, rgba(255, 255, 250, 0.5)),
+    url("https://res.cloudinary.com/poldit/image/upload/v1660172608/PoldIt/App_Imgs/Broken_Lightbulb_g97n9w.png")
+      center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

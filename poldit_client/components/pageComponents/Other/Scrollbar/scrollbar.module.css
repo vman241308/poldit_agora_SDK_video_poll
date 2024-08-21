@@ -1,0 +1,3 @@
+::ng-deep .simplebar-scrollbar::before {
+    background-color: red !important;
+  }

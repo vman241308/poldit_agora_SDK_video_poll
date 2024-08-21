@@ -1,0 +1,64 @@
+{
+  "PollTopics": [
+    {
+      "id": "1",
+      "value": "Sports",
+      "subtopics": [
+        { "id": "1", "value": "Basketball" },
+        { "id": "2", "value": "Baseball" },
+        { "id": "3", "value": "Football" },
+        { "id": "4", "value": "Soccer" },
+        { "id": "5", "value": "Tennis" },
+        { "id": "6", "value": "Cricket" },
+        { "id": "7", "value": "Skiing" }
+      ]
+    },
+    {
+      "id": "2",
+      "value": "Entertainment",
+      "subtopics": [
+        { "id": "1", "value": "Movies" },
+        { "id": "2", "value": "Music" },
+        { "id": "3", "value": "Books" },
+        { "id": "4", "value": "Art" },
+        { "id": "5", "value": "Reality TV" }
+      ]
+    },
+    {
+      "id": "3",
+      "value": "Mommas and Poppas",
+      "subtopics": [
+        { "id": "1", "value": "Newborn" },
+        { "id": "2", "value": "Infant" },
+        { "id": "3", "value": "Toddler" },
+        { "id": "4", "value": "Baby Food" },
+        { "id": "5", "value": "Pregnancy" },
+        { "id": "6", "value": "Postpartum" }
+      ]
+    },
+    {
+      "id": "4",
+      "value": "Technology",
+      "subtopics": [
+        { "id": "1", "value": "Computing" },
+        { "id": "2", "value": "Video Games" },
+        { "id": "3", "value": "Cars" },
+        { "id": "4", "value": "Scientific Breakthroughs" },
+        { "id": "5", "value": "Digital Media" },
+        { "id": "6", "value": "Quantum Computing" }
+      ]
+    },
+    {
+        "id": "5",
+        "value": "Pop Culture",
+        "subtopics": [
+          { "id": "1", "value": "Hip Hop Culture" },
+          { "id": "2", "value": "Tik Tok Memes" },
+          { "id": "3", "value": "Latest Dance Crazes" },
+          { "id": "4", "value": "Young Adult Book Series" },
+          { "id": "5", "value": "Celebrities" },
+          { "id": "6", "value": "Fashion" }
+        ]
+      }
+  ]
+}

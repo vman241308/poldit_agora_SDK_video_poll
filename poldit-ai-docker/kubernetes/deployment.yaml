@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: poldit-ai-deployment
+  namespace: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: poldit-ai-server
+  template:
+    metadata:
+      labels:
+        app: poldit-ai-server
+    spec:
+      containers:
+        - name: poldit-ai-server
+          image: registry.digitalocean.com/poldit-ai/poldit-ai-server:latest
+          envFrom:
+            - configMapRef:
+                name: poldit-config-map
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "300Mi"
+            limits:
+              cpu: "300m"
+              memory: "600Mi"
+          ports:
+            - containerPort: 5000
+
+        - name: poldit-ai-worker
+          image: registry.digitalocean.com/poldit-ai/poldit-ai-worker:latest
+          envFrom:
+            - configMapRef:
+                name: poldit-config-map
+          resources:
+            requests:
+              cpu: "200m"
+              memory: "300Mi"
+            limits:
+              cpu: "300m"
+              memory: "600Mi"

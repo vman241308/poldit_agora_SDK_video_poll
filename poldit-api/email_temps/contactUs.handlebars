@@ -1,0 +1,30 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poldit Feedback</title>
+    <style>
+      .msgFooter { margin-top: 10px; } ul {list-style: none;}
+    </style>
+  </head>
+  <body>
+    <div>
+      Feedback provided from Poldit.com.
+    </div>
+    <ul>
+      <li>Full Name: {{fullName}}</li>
+      <li>Email: {{email}}</li>
+      <li>Phone Number:
+        {{#if phoneNumber}}{{phoneNumber}}{{else}}Not Provided{{/if}}</li>
+      <li></li>
+    </ul>
+    <p>{{mssg}}</p>
+  </body>
+  <footer>
+    <img
+      src="https://res.cloudinary.com/rahmad12/image/upload/v1624921500/PoldIt/App_Imgs/PoldIt_logo_only_agkhlf.png"
+      width="120px"
+      height="auto"
+    /></footer>
+</html>

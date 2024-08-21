@@ -1,0 +1,403 @@
+.appTxt {
+  font-family: "malgun";
+  /* font-weight: 800; */
+  color: white;
+}
+
+.formTxt {
+  font-family: "malgun";
+  font-weight: 600;
+  color: black;
+}
+
+.appSecondaryTxt {
+  font-family: "malgun";
+  font-weight: 600;
+}
+
+.textCtr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 35%;
+  max-height: 250px;
+  height: auto;
+  width: 35%;
+  cursor: pointer;
+}
+
+.appColor {
+  background-color: #ff4d00;
+}
+
+.appWidth {
+  width: 10rem !important;
+}
+
+.appImg {
+  height: 100%;
+  width: auto;
+}
+
+.imgCtr {
+  display: flex;
+  height: 50px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imgCtr img {
+  width: auto;
+  height: 110px;
+}
+
+.ctrBxShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.appbg_primary {
+  background-color: #f4f4f4;
+}
+
+.appbg_secondary {
+  background-color: #ffffff;
+}
+
+.appbg_other {
+  background-color: #f2f3f4;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.profilePageIcon {
+  border: 2.5px solid white;
+}
+
+.profileEditBtn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+
+.componentSpacer {
+  width: 100%;
+  position: fixed;
+  top: 76px;
+  z-index: 10;
+}
+
+.header_fixed {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  width: 100%;
+}
+
+.dataWindow {
+  margin: 10px 200px 10px 200px;
+  width: 60vw;
+}
+
+.dataItem {
+  border: 1px solid lightgray;
+}
+
+.notifItem:hover {
+  background-color: #f2f3f4;
+}
+
+.iconHover {
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+}
+
+.iconHover:hover {
+  background-color: #ebebeb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.notifSubWindow {
+  width: 50%;
+  height: 85px;
+  background-color: white;
+  z-index: 1;
+  top: 50px;
+  right: 6px;
+}
+.notifSubWindow span {
+  width: 100%;
+  /* display: inline-block; */
+  cursor: pointer;
+  text-align: left;
+}
+
+.notifSubWindow span:hover {
+  background-color: #ebebeb;
+  border-radius: 10%;
+  /* display: inline-block; */
+}
+/* .itemToolTip_Top,
+.itemToolTip_Left {
+  position: relative;
+  display: inline-block;
+}
+
+.itemToolTip_Top .tooltiptext,
+.itemToolTip_Left .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 4px;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+  font-size: 13px;
+}
+
+.itemToolTip_Top .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+
+.itemToolTip_Left .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+} */
+
+.itemToolTip_Top:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* .bodyCtr {
+
+} */
+/* .floatingCtr {
+  padding: 0;
+  width: 100%;
+  height: 60%;
+  border: 3px solid white;
+  border-radius: 75px;
+} */
+
+/* .floatingCtr {
+  position: absolute;
+  width: 10vh;
+  height: 10vh;
+  top: 5.5em;
+  border: 4px solid white;
+  border-radius: 75px;
+} */
+
+/* .profileEditCtr {
+  height: 60%;
+  width: 12%;
+} */
+
+/* .floatingCtr:hover + .popup {
+  display: block;
+  color: whitesmoke;
+  margin-left: 22vh;
+  margin-top: 4vh;
+}
+
+.popup {
+  display: none;
+} */
+
+.searchBar {
+  border: 1px solid #a9a9a9;
+}
+
+.searchBar:hover {
+  border-color: black;
+  box-shadow: 0 0 5px black !important;
+}
+
+.searchBar input:focus {
+  border-color: white !important;
+  box-shadow: 0 0 0 white !important;
+}
+
+.profileIconCtr {
+  border: 3px solid transparent;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 0.5s;
+}
+
+.profileIconCtr:hover {
+  border-color: #ff4d00 !important;
+  box-shadow: 0 0 0 white !important;
+}
+
+.dropDownCtr {
+  top: 4.2vh;
+  left: -11vh;
+  height: 22vh;
+  width: 16vh;
+}
+
+.dropDownCtr ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+.dropDownCtr li {
+  font-family: "malgun";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.dropDownCtr li:hover {
+  background-color: #ff4d00;
+  color: white;
+}
+
+.imgCtr {
+  border: 1px solid lightgray;
+}
+
+.imgCancel {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.profileTypeBtn {
+  background-color: white;
+  cursor: pointer;
+  color: gray;
+  font-weight: 600;
+}
+
+.profileTypeBtn_active {
+  cursor: pointer;
+  color: white;
+  background-color: #ff4d00;
+  font-weight: 600;
+}
+
+.profileTypeBtn_active span {
+  background-color: white;
+  color: gray;
+  padding: 8px;
+  font-weight: 700;
+  border-radius: 30%;
+}
+
+.profileTypeBtn span {
+  background-color: gray;
+  color: whitesmoke;
+  font-weight: 700;
+  padding: 8px;
+  border-radius: 30%;
+}
+
+/* .dataItem {
+  height: 9.5vh;
+} */
+
+.dataItem p,
+.dataItem a,
+.dataItem li {
+  font-size: 14px;
+  color: gray;
+  font-weight: 400;
+}
+
+.miniBtn {
+  background-color: #acacac;
+  cursor: pointer;
+}
+
+.answerBtnMuted {
+  background-color: #acacac;
+  padding: 2px 5px 2px 5px;
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  font-family: "malgun";
+}
+
+/* .dropDownCtr ul li {
+  padding: 2px;
+} */
+
+/* .profileIconCtr a {
+  border: 2px solid transparent;
+  cursor: pointer;
+  position: relative;
+  transition-duration: 0.1s;
+}
+
+.profileIconCtr a:hover {
+  border-color: white !important;
+  box-shadow: 0 0 0 white !important;
+}
+
+.profileIconCtr a ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  top: 4.5vh;
+  min-width: 10rem;
+  right: 0.2rem;
+  border: 1px solid lightgray;
+  visibility: hidden;
+  position: absolute;
+  transition: all 0.1s ease;
+  display: block;
+  background-color: #f4f4f4;
+}
+
+.profileIconCtr:hover > a ul,
+.profileIconCtr:focus-within > a ul,
+.profileIconCtr a ul:hover {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+}
+
+.profileIconCtr a ul li {
+  clear: both;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.profileIconCtr a ul li:hover {
+  background-color: #ff4d00;
+  color: white;
+} */

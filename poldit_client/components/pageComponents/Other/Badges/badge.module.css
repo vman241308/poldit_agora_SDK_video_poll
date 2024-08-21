@@ -1,0 +1,19 @@
+.circleBadge {
+  font-family: "OpenSans-Semibold", Arial, "Helvetica Neue", Helvetica,
+    sans-serif;
+  display: inline-block;
+  /* color: #fff; */
+  text-align: center;
+  line-height: 0px;
+  border-radius: 50%;
+  min-width: 30px;
+  min-height: 30px;
+}
+
+.circleBadge span {
+  display: inline-block;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  margin-left: 1px;
+  margin-right: 1px;
+}

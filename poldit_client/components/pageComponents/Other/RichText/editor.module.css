@@ -1,0 +1,45 @@
+.wrapperCtr {
+  padding: 5px;
+  /* border: 1px solid red; */
+}
+
+.editorCtr {
+  padding-left: 5px;
+  padding-right: 5px;
+  /* border: 1px solid red; */
+  /* min-height: 200px; */
+}
+
+/* div.rdw-editor-toolbar {
+  border: 1px solid red;
+} */
+.barCtr {
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.richEditor_Editor {
+  /* border-top: 1px solid #ddd; */
+  cursor: text;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.richEditor_Hide {
+  /* border-top: 1px solid #ddd; */
+  display: none;
+}
+
+.codeBlockStyle {
+  color: #00ff4d;
+  background-color: #5b5e5f;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: medium;
+  padding: 2px 5px 2px 20px;
+  font-size: small;
+  margin: 0 10px 0 10px;
+  z-index: -10;
+  /* border-radius: 5px 0  5px; */
+}

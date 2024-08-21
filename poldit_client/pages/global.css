@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "malgun";
+  /* src: url("/public/fonts/malgun.ttf"); */
+  src: url("/fonts/malgun.ttf");
+  font-style: normal;
+  font-weight: 300;
+  font-display: "swap";
+}
+.simplebar-content-wrapper {
+  /* in notification dropdown black borders appear when focus. fix below... */
+  outline: none !important;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.modal-backdrop {
+  position: relative;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+.wrapper-class {
+  /* padding: 1rem; */
+  border: 1px solid #ccc;
+}
+.editor-class {
+  padding: 1rem;
+  /* background-color:lightgray; */
+  border: 1px solid #ccc;
+}
+.toolbar-class {
+  border: 1px solid #ccc;
+}
+/* pagination color */
+.page-link {
+  color: #ff4d00 !important;
+}
+.page-item.active .page-link {
+  background-color: #ff4d00 !important;
+  border-color: #ff4d00 !important;
+  color: #fff !important;
+}
+.page-link:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.simplebar-scrollbar::before {
+  background-color: #808080 !important;
+}
+
+.simplebar-scrollbar {
+  width: 10px;
+}

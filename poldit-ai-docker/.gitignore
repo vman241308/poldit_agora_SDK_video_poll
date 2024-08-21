@@ -1,0 +1,26 @@
+# Ignore the Python virtual environment:
+.venv/
+.venv_worker/
+.env
+
+# Ignore Python build artifacts:
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo.d
+*.so
+
+# Ignore Jupyter Notebook files:
+.ipynb_checkpoints/
+
+# Ignore Python packaging artifacts:
+dist/
+build/
+*.egg-info/
+
+# Ignore VS Code settings:
+.vscode/
+
+kubeconfig.yaml
+env.yaml

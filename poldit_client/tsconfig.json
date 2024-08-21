@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "_components/*": ["components/*"],
+      "_pageComponents/*": ["components/pageComponents/*"],
+      "_appStyles/*": ["appStyles/*"],
+      "_adminStyles/*": ["appStyles/adminStyles/*"],
+      "_apiGraphStrings/*": ["lib/apollo/apiGraphStrings/*"]
+    },
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "pages/EmailVerification/sbc.examp",
+    "components/appTypes/**/*",
+    "components/appTypes/custom.d.ts",
+  ],
+  "exclude": ["node_modules"]
+}

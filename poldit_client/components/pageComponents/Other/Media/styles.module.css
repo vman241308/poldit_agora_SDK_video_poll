@@ -1,0 +1,21 @@
+.video-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+.video-player {
+  width: inherit;
+  height: inherit;
+  object-fit: fill;
+  /* top: 0px;
+  left: 0px;
+  object-fit:fill;
+  min-width: 100%;
+  min-height: 100%; */
+}
